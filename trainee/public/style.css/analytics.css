@@ -1,0 +1,372 @@
+body {
+    background-color: rgb(225, 225, 225);
+}
+
+header {
+    background-color: white;
+}
+
+.header_content {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    height: 50%;
+    width: 100%;
+}
+
+.botanique {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 2%;
+}
+
+.buttons {
+    display: flex;
+    width: 30%;
+    flex-wrap: wrap;
+    margin-left: 3.5%;
+    justify-content: center;
+}
+
+.profile_picture {
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: 2%;
+}
+
+.main, .analysis {
+    display: flex;
+    height: 100%;
+    width: 50%;
+}
+
+.m, .a{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(148, 148, 148);
+    border-style: none;
+    width: 100%;
+}
+
+.m a, .a a{
+    text-decoration: none;
+    color: grey;
+}
+
+.m:hover, .a:hover{
+    color: green;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: #23B04A;
+}
+
+
+.contents_analysis {
+    width: 90%;
+    height: 75vh;
+    background-color: white;
+    position: absolute;
+    z-index: 2;
+    margin-left: 4.1%;
+    margin-top: 5%;
+    border-radius: 1px;
+    border-style: solid;
+    border-color: rgba(209, 209, 209, 0.93);
+}
+
+.ph_analysis {
+    margin-left: 2%;
+    border-style: solid;
+    border-width: 0 0 0.5px 0;
+    border-color: rgb(170, 168, 168);
+    margin-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(64, 64, 64);
+    width: 95.9%;
+    display: flex;
+    
+}
+
+.ph_a_picture {
+    margin-right: 2%;
+    margin-bottom: 1%;
+}
+
+.ph__a_text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 2.5%;
+}
+
+.mini {
+    position: absolute;
+    margin-left: 5.5%;
+    margin-top: 2.5%;
+    font-size: 12px;
+    color: rgb(108, 107, 107);
+}
+
+.tool_work {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 5vh;
+    justify-content: space-between;
+}
+
+.tool_work .rabota {
+    margin-left: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2.5%;
+}
+
+.strelka {
+    margin-left: 13.5%;
+    margin-top: 1.5%;
+    position: absolute;
+}
+
+.clock {
+    margin-right: 20%;
+    margin-top: 2%;
+}
+
+.red_heart {
+    margin-left: 1.7%;
+    margin-top: 0.4%;
+}
+
+.bu {
+    height: 27px;
+    width: 27px;
+    margin-top: 0.2%;
+    margin-left: 0.5%;
+}
+
+.settings {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.analysis_tools {
+    margin-left: 22%;
+    margin-top: 0.2%;
+}
+
+
+.analysis_tools select{
+    color: green;
+    
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+}
+
+.clocki {
+    height: 30px;
+    margin-top: 2%;
+    width: 30px;
+    border-radius: 10%;
+    border-color: rgb(162, 160, 160);
+    border-width: 0.5px;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.pdf {
+    position: absolute;
+    margin-left: 81%;
+    margin-top: 1.25%;
+    
+}
+
+.save {
+    height: 30px;
+    border-width: 0.5px;
+    background-color: transparent;
+    flex-wrap: wrap;
+    align-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    color: #23B04A;
+    font-weight: 600;
+    font-stretch: expanded;
+    border-radius: 5px;
+    border-color: rgb(169, 167, 167);
+    width: 180px;
+}
+
+.dots {
+    margin-top: 7.5%;
+    
+}
+
+.divider {
+    margin-top: 5.5%;
+}
+
+
+.save:hover{
+    cursor: pointer;
+}
+
+.calendar {
+    margin-top: 2.5%;
+    margin-left: 1.9%;
+}
+
+.direction {
+    margin-left: 15.55%;
+    position: absolute;
+    top: 26.1%;
+}
+
+.calendari {
+    margin-left: 20%;
+    position: absolute;
+    top: 27.65%;
+}
+
+.section_first {
+    display: flex;
+    width: 50%;
+    margin-left: 2%;
+    margin-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.type {
+    margin-left: 17%;
+}
+
+.usage {
+    margin-left: 11%;
+}
+
+.result, .check, .username {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.result {
+    margin-left: 25%;
+}
+
+.check, .username {
+    margin-left: 3%;
+}
+
+.calendar_buttons {
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.calendar_buttons button {
+    border-radius: 15px;
+    border-color: transparent;
+    background-color: rgba(199, 199, 199, 0.538);
+}
+
+.calendar_buttons button:hover{
+    cursor: pointer;
+    background-color: #C2E7C8;
+    
+}
+
+.analysis_tools form:hover{
+    border-color: #23B04A;
+}
+
+.sections {
+    width: 100%;
+    height: 50px;
+}
+
+.section_first {
+    color: grey;
+    width: 100%;
+}
+
+.part_one, .part_two {
+    width: 98%;
+    height: 18%;
+    border-color: rgba(161, 159, 159, 0.716);
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    margin-left: 1%;
+}
+
+.line_one {
+    margin-top: 1%;
+    margin-left: 1%;
+    border-color: transparent;
+    width: 12%;
+}
+
+.line_one input {
+    border-style: none;
+    
+}
+
+input[type="datetime-local"]::-webkit-inner-spin-button,
+input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+.section_second {
+    display: flex;
+    width: 30%;
+    margin-left: 60vw;
+}
+
+.green {
+    margin-left: 80.25%;
+    position: absolute;
+    bottom: 39%;
+    
+}
+
+.green_one {
+    margin-left: 80.25%;
+    position: absolute;
+    bottom: 18.5%;
+    
+}
+
+.sample_one, .sample_two {
+    position: absolute;
+    color: grey;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sample_one {
+    margin-left: 40.25%;
+    bottom: 18.5%;
+}
+
+.sample_two {
+    margin-left: 40.25%;
+    bottom: 40.5%;
+}

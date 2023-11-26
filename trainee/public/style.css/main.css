@@ -1,0 +1,292 @@
+body {
+    background-color: rgb(225, 225, 225);
+   
+}
+
+.header_content {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+.botanique {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.logo {
+    margin-left: 2%;
+}
+
+.logo img{
+    margin-top: 1%;
+}
+
+.buttons {
+    display: flex;
+    width: 30%;
+    flex-wrap: wrap;
+    align-items: last baseline;
+    margin-left: 5.5%;
+    justify-content: space-between;
+}
+
+
+.features_ph, .features_spectre, .features_titrator, .features_koagulometr_one, .features_koagulometr_two {
+    position: absolute;
+    margin-left: 72.5%;
+    z-index: 3;
+}
+
+.features_ph {
+    margin-top: 12.5%;
+}
+
+.features_spectre {
+    margin-top: 17.1%;
+}
+
+.features_titrator {
+    margin-top: 21.51%;
+}
+
+.features_koagulometr_one {
+    margin-top: 25.89%;
+}
+
+.features_koagulometr_two {
+    margin-top: 30.5%;
+}
+
+.main, .analysis {
+    display: flex;
+    height: 100%;
+    width: 50%;
+}
+
+.m, .a{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(148, 148, 148);
+    border-style: none;
+    width: 100%;
+}
+
+.m a, .a a{
+    text-decoration: none;
+    color: grey;
+}
+
+.m:hover, .a:hover{
+    color: green;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: #23B04A;
+}
+
+.nazvanie {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3.1%;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+.statu {
+    margin-right: 1.2%;
+}
+
+.na {
+    margin-left: 6.5%;
+}
+
+.b {
+    display: flex;
+    width: 29px;
+    height: 40vh;
+    position: absolute;
+    flex-wrap: wrap;
+    margin-left: 83.5%;
+    margin-top: 12.3%;
+    justify-content: space-evenly;
+}
+
+.bell_one, .bell_two, .bell_three, .bell_four, .bell_five {
+    width: 29px;
+    height: 29px;
+    display: flex;
+    opacity: 1;
+    z-index: 4;
+    background-image: url('share.svg');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+
+
+.image {
+    opacity: 0;
+    position: relative;
+    z-index: 5;
+}
+
+.analysis {
+    display: flex;
+}
+
+.profile_picture {
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: 2%;
+}
+
+.profile_picture img {
+    margin-top: 1%;
+}
+
+
+.contents {
+    width: 79%;
+    height: 48.5vh;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    margin: 7% 10% 10% 11.7%;
+    border-radius: 1px;
+    border-style: solid;
+    border-color: rgba(209, 209, 209, 0.93);
+}
+
+.love {
+    display: flex;
+    width: 30%;
+    top: 32%;
+    left: 12.5%;
+    position: absolute;
+    
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    margin-left: 5.2%;
+}
+
+.ph {
+    margin-left: 2%;
+    margin-top: 1%;
+    border-style: solid;
+    border-width: 0 0 0.5px 0;
+    border-color: rgb(170, 168, 168);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 95.9%;
+    display: flex;
+}
+
+.ph_picture, .spectre_picture, .titrator_picture, .koagulometr_one_picture, .koagulometr_two_picture {
+    margin-right: 2%;
+}
+
+.ph_text, .spectre_text, .titrator_text, .koagulometr_one_text, .koagulometr_two_text{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 9px;
+}
+
+.spectre {
+    margin-left: 2%;
+    border-style: solid;
+    border-width: 0 0 0.5px 0;
+    border-color: rgb(170, 168, 168);
+    margin-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 95.9%;
+    display: flex;
+}
+
+.titrator {
+    margin-left: 2%;
+    border-style: solid;
+    border-width: 0 0 0.5px 0;
+    border-color: rgb(170, 168, 168);
+    margin-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 95.9%;
+    display: flex;
+}
+
+.koagulometr_one {
+    margin-left: 2%;
+    border-style: solid;
+    border-width: 0 0 0.5px 0;
+    border-color: rgb(170, 168, 168);
+    margin-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 95.9%;
+    display: flex;
+}
+
+.koagulometr_two {
+    margin-left: 2%;
+    margin-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 95.9%;
+    display: flex;
+}
+
+.search_bar {
+    background: transparent;
+    border-style: solid;
+    border-width: 0.2px 0.2px 0.2px 0.2px;
+    border-color: rgb(171, 171, 171);
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 12%;
+}
+.search_bar form {
+    background: transparent;
+}
+.search_bar input, .search_bar button {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.search_bar input {
+  width: 100%;
+  height: 42px;
+  padding-left: 15px;
+}
+.search_bar button {
+  height: 42px;
+  width: 42px;
+  position: absolute;
+  top: 18.5%;
+  left: 88%;
+  cursor: pointer;
+}
+.search_bar button:before {
+  font-size: 16px;
+  color: #F9F0DA;
+}
+
+.back {
+    margin-top: 10%;
+    margin-left: 40%;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+

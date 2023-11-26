@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css/analytics.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header_content">
+            <div class="botanique">
+                <div class="logo"><img src="style.css/Logo.png" alt="">
+            </div>
+            <div class="buttons">
+                <div class="main"><button class="m"><a href="main.html">ГЛАВНАЯ</a></button></div>
+                <div class="analysis"><button class="a"><a href="analytics.html">АНАЛИТИКА</a></button></div>
+            </div>
+            <div class="profile_picture"><img src="style.css/User.png" alt=""></div>
+        </div>
+        
+    </header>
+    <main>
+        <div class="contents_analysis">
+            <div class="ph_analysis">
+                <div class="ph_a_picture"><img src="style.css/unknown device.svg" alt=""></div>
+                <div class="ph__a_text">pH-метр Mettler-Toledo International, Inc. SevenCompact S220</div>
+                <div class="mini">S1.4.I14-9.001 00-024004</div>
+                <div class="analysis_tools">
+                    <form action="#">
+                        <select name="tools" id="tool_select">
+                            <option value="svoboden">Свободен</option>
+                            <option value="vrabote">В работе</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="red_heart"><img src="style.css/favorite.svg" alt=""></div>
+                <div class="bu"><button class="settings"><img src="style.css/settings.svg" alt=""></button></div>
+            </div>
+            <div class="tool_work">
+                <div class="rabota">Работа прибора</div>
+                <div class="strelka"><img src="style.css/Trailing items.svg" alt=""></div>
+                <div class="clock"><button class="clocki"><img src="style.css/clock.svg" alt=""></button></div>
+                <div class="pdf">
+                    <button class="save">
+                        <p>СОХРАНИТЬ PDF</p>
+                        <div class="divider"><img src="style.css/Divider_vertical.svg" alt=""></div>
+                        <div class="dots"><img src="style.css/dots.svg" alt=""></div>
+                    </button>
+                </div>
+            </div>
+            <div class="calendar">
+                <input type="datetime-local" id="datetimeLocalToday">
+                <script>document.getElementById('datetimeLocalToday').value = new Date().toJSON().slice(0,16);</script>
+            </div>
+            <div class="direction"><img src="style.css/Icon.svg" alt=""></div>
+            <div class="calendari">
+                <input type="datetime-local" id="datiLolTo">
+                <script>document.getElementById('datiLolTo').value = new Date().toJSON().slice(0,16);</script>
+            </div>
+            <div class="calendar_buttons">
+                <button class="day">День</button>
+                <button class="week">Неделя</button>
+                <button class="two_weeks">2 недели</button>
+                <button class="month">Месяц</button>
+                <button class="three_month">3 месяца</button>
+                <button class="half_of_a_year">Полгода</button>
+            </div>
+            <div class="sections">
+                <div class="section_first">
+                    <div class="begining"><p>Начало</p></div>
+                    <div class="type"><p>Тип работ</p></div>
+                    <div class="usage"><p>Работы</p></div>
+                    <div class="result">Результат</div>
+                    <div class="check">0</div>
+                    <div class="username">Пользователь</div>
+                </div>
+            </div>
+            <div class="part_one">
+                <div class="line_one">
+                    <input type="datetime-local" id="linedate">
+                    <script>document.getElementById('linedate').value = new Date().toJSON().slice(0,16);</script>
+                </div>
+                <div class="sample_one">Образец/cерия:</div>
+                <div class="green"><img src="style.css/Color.svg" alt=""></div>
+            </div>
+            <div class="part_two">
+                <div class="line_one">
+                    <input type="datetime-local" id="linetwodate">
+                    <script>document.getElementById('linetwodate').value = new Date().toJSON().slice(0,16);</script>
+                </div>
+                <div class="sample_two">Образец/cерия:</div>
+                <div class="green_one"><img src="style.css/Color.svg" alt=""></div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+
+
+<script src="jquery.js"></script>
+<script type="text/javascript" src="medtech.js"></script>
+</body>
+</html>

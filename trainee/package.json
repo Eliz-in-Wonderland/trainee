@@ -1,0 +1,22 @@
+{
+  "name": "medical",
+  "version": "1.0.0",
+  "description": "выбор прибора и просмотр графика использования botanique",
+  "main": "medical.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eliz-in-Wonderland/trainee.git"
+  },
+  "keywords": [
+    "trainee"
+  ],
+  "author": "Elizaveta Sofronova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eliz-in-Wonderland/trainee/issues"
+  },
+  "homepage": "https://github.com/Eliz-in-Wonderland/trainee#readme"
+}
